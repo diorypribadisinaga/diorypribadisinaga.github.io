@@ -1,76 +1,92 @@
-html{
+html {
     overflow-x: hidden;
 }
 
-.body{
-    font-family:Helvetica;
+.body {
+    font-family: Helvetica;
 }
-.navbar{
-    background-color:  #F1F3FF;
+
+.navbar {
+    background-color: #F1F3FF;
     ;
 }
-.navbar li{
-  margin-right: 3px;
-  font-weight: 500;
+
+.navbar li {
+    margin-right: 3px;
+    font-weight: 500;
 }
-.section-home{
-    background-color:#F1F3FF;
+
+.section-home {
+    background-color: #F1F3FF;
     height: auto;
 
 }
 
-.section-testi .card{
+.section-testi .card {
     background-color: #F1F3FF;
     border: none;
 }
-.btn-c{
+
+.btn-c {
     background-color: #5CB85F;
     border-radius: 7px;
-    
+
 }
-.ck{
+
+.ck {
     background-color: #CFD4ED;
     padding: 3px;
     margin-right: 10px;
 }
-.mobil{
+
+.mobil {
     display: inline-block;
     background-color: #F9CC00;
 }
-.murah{
-    display:inline-block;
+
+.murah {
+    display: inline-block;
 }
-.supir{
+
+.supir {
     display: inline-block;
     background-color: #5CB85F;
 }
-.jam{
+
+.jam {
     display: inline-block;
     background-color: #0D28A6;
 }
-.section-sewa .container{
+
+.section-sewa .container {
     background-color: #0D28A6;
-    border-radius: 20px;
-    width: 1050px;
+    max-width: 87%;
+    border-radius: 25px;
+
 }
 
-footer a{
+.section-sewa {
+    justify-content: end;
+}
+
+footer a {
     display: block;
     text-decoration: none;
     margin-top: 5px;
     font-size: 18px;
     color: white;
 }
-footer i{
+
+footer i {
     background-color: #0D28A6;
     padding: 5px;
     border-radius: 15px;
 }
-footer .footer{
+
+footer .footer {
     display: inline-block;
     background-color: #0D28A6;
     color: #0D28A6;
     height: 37px;
     width: 120px;
 }
-
